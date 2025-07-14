@@ -27,7 +27,7 @@ const footballTeamsUpdated = [];
 // Ciclo l'array, dichiaro una variabile per contenere i valori aggiornati, mantenendo il valore 'teamName' come lo stesso, mi servo di math.floor e math.random per score (da 0 a 90) e per receivedFouls (da 0 a 5) e pusho tutto nel nuovo array footballTeamsUpdated
 for(let i=0; i<footballTeams.length; i++){
 	const updatedValues = {
-		teamName: footballTeams[i].teamName,
+		teamName: footballTeams[i].teamName, // Mantengo il valore identico
 		score: Math.floor(Math.random() * 91),
 		receivedFouls: Math.floor(Math.random() * 6)
 	};

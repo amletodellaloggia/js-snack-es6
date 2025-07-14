@@ -33,6 +33,10 @@ for(let i=0; i<footballTeams.length; i++){
 	};
 footballTeamsUpdated.push(updatedValues);
 };
+// Stampo in console
+console.log(footballTeamsUpdated);
+
+// Ho bisogno di mostrare in un ulteriore array solamente gli elementi 'teamName' e 'receivedFouls' a partire dall'array aggiornato in precedenza e stampare in console questo nuovo array 
 
 // Creo un array che contiene oggetti le cui proprietà riportate saranno solamente 'teamName' e 'receivedFouls'
 const footballTeamsNew = [];
